@@ -13,9 +13,9 @@ env:
   Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm install qmatic
+  InstallCommand: npm i
   BuildCommand: npm run build
-  Output: ./qmatic
+  Output: ./
 
 jobs:
   build:
